@@ -8,9 +8,9 @@ from telethon.errors import FloodWaitError, RPCError
 ##################################
 # [1] 텔레그램 기본 설정
 ##################################
-API_ID = int(os.getenv("API_ID", "22370199"))
-API_HASH = os.getenv("API_HASH", "b91409ba5f2b5609bae92e5b9e822cdb")
-PHONE_NUMBER = os.getenv("PHONE_NUMBER", "+8801845783188")
+API_ID = int(os.getenv("API_ID", "20035278"))
+API_HASH = os.getenv("API_HASH", "867dde7f85fdd69e4f069ac37cb3f01a")
+PHONE_NUMBER = os.getenv("PHONE_NUMBER", "+818029409786")
 
 SESSION_NAME = "my_telethon_session"
 client = TelegramClient(
