@@ -10,7 +10,7 @@ from telethon.errors import FloodWaitError, RPCError
 ##################################
 API_ID = int(os.getenv("API_ID", "20035278"))
 API_HASH = os.getenv("API_HASH", "867dde7f85fdd69e4f069ac37cb3f01a")
-PHONE_NUMBER = os.getenv("PHONE_NUMBER", "+818029409786")
+PHONE_NUMBER = os.getenv("PHONE_NUMBER", "+819074556307")
 
 SESSION_NAME = "my_telethon_session"
 client = TelegramClient(
